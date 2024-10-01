@@ -1,0 +1,16 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: manual.qmd
+
+format:
+  html: 
+    toc: true
+    toc-expand: 2
+    toc-title: Contents
+    toc-location: left
+    number-sections: true
+
+execute:
+  freeze: false
